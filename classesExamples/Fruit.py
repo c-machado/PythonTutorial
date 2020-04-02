@@ -4,9 +4,9 @@ class Fruit(object):
         print('constructor in Fruit class')
 
     def nutrition(self, fruit):
-        fruit_nutrition = {'banana': 4, 'orange': 5, 'exotic': 6}
-        if fruit in fruit_nutrition:
-            print('nutrition: ' + str(fruit_nutrition[fruit]))
+        fruitNutrition = {'banana': 4, 'orange': 5, 'exotic': 6}
+        if fruit in fruitNutrition:
+            print('nutrition: ' + str(fruitNutrition[fruit]))
 
     def shape(self, shape):
         flag = 0
